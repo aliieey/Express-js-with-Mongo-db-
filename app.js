@@ -95,32 +95,3 @@ userData.findByIdAndUpdate("671b50864ef3ec81d7242ffb" , {name : "Abdullah Afzal"
 userData.findByIdAndDelete("671b5820a3d1b6fa9311d3ef")
 .then(user =>console.log("user deleted" , user))
 .catch(error => console.log("error deleting the user" , error));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
